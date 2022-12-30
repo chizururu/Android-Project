@@ -33,6 +33,15 @@
         android:textSize="15dp" />
 
     <!--List Karakter Anime-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:text="Seiyuu"
+        android:textStyle="bold"
+        android:textSize="15dp" />
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv_va"
         android:layout_width="match_parent"
@@ -40,5 +49,5 @@
         android:layout_marginTop="10dp"
         android:layout_marginLeft="25dp"
         android:layout_marginRight="25dp"
-        tools:listitem="@layout/list_character"/>
+        tools:listitem="@layout/list_va"/>
 </LinearLayout>

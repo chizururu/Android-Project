@@ -1,14 +1,16 @@
-package com.example.anime;
+package com.example.anime.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class list_va extends AppCompatActivity {
+import com.example.anime.R;
+
+public class VADetails extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.list_va);
+        setContentView(R.layout.va_detail);
     }
 }
