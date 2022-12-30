@@ -15,6 +15,20 @@
         android:theme="@style/Theme.Anime"
         tools:targetApi="31">
         <activity
+            android:name=".list_va"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".VADetails"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".activity.SignUpActivity"
             android:exported="false">
             <meta-data
